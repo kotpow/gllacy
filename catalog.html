@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Глейси</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html">
+      <img src="http://placehold.it/200x150" alt="Gllacy">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">О компании</a></li>
+      </ul>
+    </nav>
+    <div class="shop-buttons">
+      <a href="#">Поиск</a>
+      <form action="#" method="get">
+        <label>
+          <input type="search" name="search" placeholder="Что ищем?">
+        </label>
+        <button type="submit">Поиск</button>
+      </form>
+      <a href="#">Вход</a>
+      <form action="" method="post">
+        <label>
+          <input type="email" name="login" placeholder="Электронная почта">
+        </label>
+        <label>
+          <input type="password" name="password" placeholder="Пароль">
+        </label>
+        <button type="submit">Войти</button>
+        <a href="#">Забыли пароль?</a>
+        <a href="#">Новая регистрация</a>
+      </form>
+      <a href="#">Пусто</a>
+      <div class="busket">
+        <section class="order1">
+          <button type="reset"></button>
+          <img src="http://placehold.it/25" alt="изображение">
+          <p>Пломбир с апельсиновым джемом</p>
+          <p>1,5 кг x 200 руб.</p>
+          <p>300 руб.</p>
+        </section>
+        <section class="order2">
+          <button type="reset"></button>
+          <img src="http://placehold.it/25" alt="Изображение">
+          <p>Клубничный пломбир с присыпкой из белого
+          шоколадка</p>
+          <p>1,5 кг x 300 руб.</p>
+          <p>450 руб.</p>
+        </section>
+        <p>Итого: 750 руб.</p>
+        <label>
+          <input type="submit" name="checkout" value="Оформить заказ">
+        </label>
+      </div>
+    </div>
+    <p>С 10 до 20, ежедневно<br>
+      8 812 450-25-25</p>
+  </header>
+  <main class="main-menu">
+    <p>
+      <a href="index.html">Главная</a> » <a href="catalog.html">Каталог</a> »
+      Сливочное
+    </p>
+    <h1>Сливочное мороженое</h1>
+    <form action="#" method="get">
+      <div class="sorter">
+        <span>Сортировка:</span>
+        <label>
+          <select name="sort">
+            <option value="По популярности">По популярности</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>Цена: 100 руб. - 500 руб.
+        <input type="range"  min="100" max="500" step="1">
+        </label>
+      </div>
+      <div class="fat">
+        <span>Жирность:</span>
+        <label>
+          <input type="radio" name="fat">0%
+        </label>
+        <label>
+          <input type="radio" name="fat" checked>10%
+        </label>
+        <label>
+          <input type="radio" name="fat">30%
+        </label>
+        <label>
+          <input type="radio" name="fat">выше 30%
+        </label>
+      </div>
+      <div class="filler">
+        <span>Наполнитель:</span>
+        <label>
+          <input type="checkbox" name="" checked>шоколадные
+        </label>
+        <label>
+          <input type="checkbox" name="" checked>сахарные присыпки
+        </label>
+        <label>
+          <input type="checkbox" name="">фрукты
+        </label>
+        <label>
+          <input type="checkbox" name="">сиропы
+        </label>
+        <label>
+          <input type="checkbox" name="">джем
+        </label>
+      </div>
+      <div class="apply">
+        <label>
+          <button type="submit" name="apply">Применить</button>
+        </label>
+      </div>
+    </form>
+    <div class="catalog">
+      <ul>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка1">
+          <p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка2">
+          <p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка3">
+          <p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка4">
+          <p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка5">
+          <p><a href="#">Сливочное с брусничным джемом</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка6">
+          <p><a href="#">Сливочно-черничное с цельными ягодами черники/<a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка7">
+          <p><a href="#">Сливочно-лимонное с карамельной присыпкой</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка8">
+          <p><a href="#">Сливочное с шоколадной стружкой</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка9">
+          <p><a href="#">Сливочно-ванильное с кусочками шоколада</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка10">
+          <p><a href="#">Сливочное с ментоловым сиропом</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка11">
+          <p><a href="#">Сливочное с кусочками черного шоколада</a></p>
+        </li>
+        <li>
+          <img src="http://placehold.it/100" alt="Мороженка12">
+          <p><a href="#">Сливочное с мятным сиропом</a></p>
+        </li>
+      </ul>
+    </div>
+    <div class="paginator">
+      <a class="prev" href="#prev">Назад</a>
+      <a href="#1">1</a>
+      <a href="#2">2</a>
+      <a href="#3">3</a>
+      <a href="#4">4</a>
+      <a href="#5">5</a>
+      <a class="next" href="#next">Вперёд</a>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="social-buttons">
+      <a href="#" class="social social-tw">
+        <img src="http://placehold.it/50" alt="Twitter">
+      </a>
+      <a href="#" class="social social-inst">
+        <img src="http://placehold.it/50" alt="Instagram">
+      </a>
+      <a href="#" class="social social-fb">
+        <img src="http://placehold.it/50" alt="Facebook">
+      </a>
+      <a href="#" class="social social-vk">
+        <img src="http://placehold.it/50" alt="Vkontakte">
+      </a>
+    </div>
+    <div class="about-us">
+      <li><a href="#"><strong>Для поставщиков</strong></a></li>
+      <li><a href="#">О производстве</a></li>
+      <li><a href="#">Наши документы</a></li>
+      <li><a href="#">Экологические стандарты</a></li>
+    </div>
+    <div class="academy">
+      <img src="http://placehold.it/100x50" alt="HTML Academy">
+      <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">
+        HTML Academy</a> © 2017</p>
+    </div>
+  </footer>
+</body>
+</html>
