@@ -48,17 +48,17 @@
           <section class="basket-item">
             <button type="button">Удалить</button>
             <img src="http://placehold.it/25" alt="Пломбир с апельсиновым джемом">
-            <span>Пломбир с апельсиновым джемом</span>
-            <span>1,5 кг x <i>200 руб.</i></span>
-            <span>300 руб.</span>
+            <span class="item item-orange">Пломбир с апельсиновым джемом</span>
+            <span class="weight">1,5 кг x <i>200 руб.</i></span>
+            <span class="price">300 руб.</span>
           </section>
 
           <section class="basket-item">
             <button type="button">Удалить</button>
             <img src="http://placehold.it/25" alt="Клубничный пломбир с присыпкой из белого шоколадка">
-            <span>Клубничный пломбир с присыпкой из белого шоколадка</span>
-            <span>1,5 кг x <i>300 руб.</i></span>
-            <span>450 руб.</span>
+            <span class="item item-strawberry">Клубничный пломбир с присыпкой из белого шоколадка</span>
+            <span class="weight">1,5 кг x <i>300 руб.</i></span>
+            <span class="price">450 руб.</span>
           </section>
 
           <b>Итого: 750 руб.</b>
@@ -67,7 +67,7 @@
         </div>
       </div>
 
-      <span>С 10 до 20, ежедневно</span>
+      <span class="timetable">С 10 до 20, ежедневно</span>
       <a href="tel:8 812 450-25-25">8 812 450-25-25</a>
     </header>
 
@@ -76,19 +76,19 @@
 
       <section class="slider">
         <div class="slide">
-          <h2></h2>
-          <img src="" alt="">
-          <a href=""></a>
+          <h2>Крем-брюле и пломбир с малиновым джемом</h2>
+          <img src="http://placehold.it/900x2432" alt="Крем-брюле и пломбир с малиновым джемом">
+          <a href="#"></a>
         </div>
         <div class="slide">
-          <h2></h2>
-          <img src="" alt="">
-          <a href=""></a>
+          <h2>Шоколадный пломбир и лимонный сорбет</h2>
+          <img src="http://placehold.it/900x2432" alt="Шоколадный пломбир и лимонный сорбет">
+          <a href="#"></a>
         </div>
         <div class="slide">
-          <h2></h2>
-          <img src="" alt="">
-          <a href=""></a>
+          <h2>Пломбир с помадкой и клубничный щербет</h2>
+          <img src="http://placehold.it/900x2432" alt="Пломбир с помадкой и клубничный щербет">
+          <a href="#"></a>
         </div>
       </section>
 
@@ -138,24 +138,24 @@
       </div>
 
       <section class="shop">
-        <p>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</p>
-        <ul class="shop">
-          <li>
+        <span class="shop-gllacy">Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</span>
+        <ul class="our-merit">
+          <li class="merit">
             Все наше мороженное изготавливается на собственном производстве,
             с использованием современного оборудования и проверенных временем
             технологий
           </li>
-          <li>
+          <li class="merit">
             Для приготовления мороженного используются настоящие сливки и
             молоко высшего качества. Все дополнительные ингредиенты и добавки
             произведены из натурального экологически чистого сырья.
           </li>
-          <li>
+          <li class="merit">
             Закупка ингредиентов производится только у проверенных фермерских
             хозяйств и компаний, с которыми нас связывается долговременное
             сотрудничество.
           </li>
-          <li>
+          <li class="merit">
             Доставка нашего мороженного до заказчиков осуществляется в
             специальном термопаке, который не дает мороженному растаять по пути и
             позволяет сохранить превосходный вкус.
@@ -164,7 +164,7 @@
       </section>
 
       <article class="blog-preview">
-        <span>Новое в нашем блоге</span>
+        <span class="blog">Новое в нашем блоге</span>
         <h2><a href="#">10 способов сервировки фруктовых щербетов к столу</a></h2>
       </article>
 
@@ -190,13 +190,10 @@
           </p>
           <p>
             Для заказов по телефону:
-            8 812 450-25-25 (с 10 до 20 ежедневно)
+            8 812 450-25-25
+            (с 10 до 20 ежедневно)
           </p>
-          <form action="#" method="get">
-            <label>
-              <input type="submit" name="submit" value="Форма обратной связи">
-            </label>
-          </form>
+          <button type="submit">Форма обратной связи</button>
         </div>
       </div>
     </main>
@@ -216,12 +213,14 @@
           <img src="http://placehold.it/50" alt="Vkontakte">
         </a>
       </div>
+
       <div class="about-us">
-        <li><a href="#"><strong>Для поставщиков</strong></a></li>
+        <li><a href="#"><b>Для поставщиков</b></a></li>
         <li><a href="#">О производстве</a></li>
         <li><a href="#">Наши документы</a></li>
         <li><a href="#">Экологические стандарты</a></li>
       </div>
+
       <div class="academy">
         <img src="http://placehold.it/100x50" alt="HTML Academy">
         <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">
