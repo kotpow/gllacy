@@ -22,7 +22,7 @@
     <div class="shop-buttons">
       <a href="#">Поиск</a>
 
-      <form action="#" method="get">
+      <form action="https://echo.htmlacademy.ru" method="get">
         <label>
           <input type="search" name="search" placeholder="Что ищем?">
         </label>
@@ -31,7 +31,7 @@
 
       <a href="#">Вход</a>
 
-      <form action="" method="post">
+      <form action="https://echo.htmlacademy.ru" method="post">
         <label>
           <input type="email" name="login" placeholder="Электронная почта">
         </label>
@@ -72,10 +72,10 @@
   </header>
 
   <main>
-    <span class="way">
-      <a href="index.html">Главная</a> » <a href="catalog.html">Каталог</a> »
-      Сливочное
-    </span>
+    <div class="breadcrumbs">
+      <a href="index.html">Главная</a> <a href="catalog.html">Каталог</a>
+      <a>Сливочное</a>
+    </div>
     <h1>Сливочное мороженое</h1>
     <form action="#" method="get">
       <div class="sorter">
@@ -96,106 +96,102 @@
       <div class="fat">
         <span class="field-caption">Жирность:</span>
         <label>
-          <input type="radio" name="fat">0%
+          <input type="radio" name="fat" value="fat">0%
         </label>
         <label>
-          <input type="radio" name="fat" checked>10%
+          <input type="radio" name="fat" value="fat" checked>10%
         </label>
         <label>
-          <input type="radio" name="fat">30%
+          <input type="radio" name="fat" value="fat">30%
         </label>
         <label>
-          <input type="radio" name="fat">выше 30%
+          <input type="radio" name="fat" value="fat">выше 30%
         </label>
       </div>
 
       <div class="filler">
         <span class="field-caption">Наполнитель:</span>
         <label>
-          <input type="checkbox" name="chocolate" checked>шоколадные
+          <input type="checkbox" name="chocolate" value="filler" checked>шоколадные
         </label>
         <label>
-          <input type="checkbox" name="sugar" checked>сахарные присыпки
+          <input type="checkbox" name="sugar" value="filler" checked>сахарные присыпки
         </label>
         <label>
-          <input type="checkbox" name="fruit">фрукты
+          <input type="checkbox" name="fruit" value="filler">фрукты
         </label>
         <label>
-          <input type="checkbox" name="syrup">сиропы
+          <input type="checkbox" name="syrup" value="filler">сиропы
         </label>
         <label>
-          <input type="checkbox" name="jam">джем
+          <input type="checkbox" name="jam" value="filler">джем
         </label>
       </div>
 
       <div class="apply">
-        <label>
           <button type="submit" name="apply">Применить</button>
-        </label>
       </div>
     </form>
 
     <div class="catalog">
-      <ul>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка1">
-          <p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка2">
-          <p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка3">
-          <p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка4">
-          <p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка5">
-          <p><a href="#">Сливочное с брусничным джемом</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка6">
-          <p><a href="#">Сливочно-черничное с цельными ягодами черники/<a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка7">
-          <p><a href="#">Сливочно-лимонное с карамельной присыпкой</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка8">
-          <p><a href="#">Сливочное с шоколадной стружкой</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка9">
-          <p><a href="#">Сливочно-ванильное с кусочками шоколада</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка10">
-          <p><a href="#">Сливочное с ментоловым сиропом</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка11">
-          <p><a href="#">Сливочное с кусочками черного шоколада</a></p>
-        </li>
-        <li>
-          <img src="http://placehold.it/100" alt="Мороженка12">
-          <p><a href="#">Сливочное с мятным сиропом</a></p>
-        </li>
-      </ul>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+        <h2><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочно-кофейное с кусочками шоколада">
+        <h2><a href="#">Сливочно-кофейное с кусочками шоколада</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочно-клубничное с присыпкой из белого шоколада">
+        <h2><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное крем-брюле с карамельной подливкой">
+        <h2><a href="#">Сливочное крем-брюле с карамельной подливкой</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное с брусничным джемом">
+        <h2><a href="#">Сливочное с брусничным джемом</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочно-черничное с цельными ягодами черники">
+        <h2><a href="#">Сливочно-черничное с цельными ягодами черники/<a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочно-лимонное с карамельной присыпкой">
+        <h2><a href="#">Сливочно-лимонное с карамельной присыпкой</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное с шоколадной стружкой">
+        <h2><a href="#">Сливочное с шоколадной стружкой</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочно-ванильное с кусочками шоколада">
+        <h2><a href="#">Сливочно-ванильное с кусочками шоколада</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное с ментоловым сиропом">
+        <h2><a href="#">Сливочное с ментоловым сиропом</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное с кусочками черного шоколада">
+        <h2><a href="#">Сливочное с кусочками черного шоколада</a></h2>
+      </article>
+      <article>
+        <img src="http://placehold.it/100" alt="Сливочное с мятным сиропом">
+        <h2><a href="#">Сливочное с мятным сиропом</a></h2>
+      </article>
     </div>
 
     <div class="paginator">
-      <a class="prev" href="#prev">Назад</a>
-      <a href="#1">1</a>
-      <a href="#2">2</a>
-      <a href="#3">3</a>
-      <a href="#4">4</a>
-      <a href="#5">5</a>
-      <a class="next" href="#next">Вперёд</a>
+      <a class="prev" href="#">Назад</a>
+      <a>1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a class="next" href="#">Вперёд</a>
     </div>
   </main>
 
