@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a>
+      <a class="logo">
         <img src="http://placehold.it/200x150" alt="Gllacy">
       </a>
       <nav class="main-nav">
@@ -20,14 +20,17 @@
       </nav>
       <div class="shop-buttons">
         <a href="#">Поиск</a>
+
         <form action="#" method="get">
           <label>
             <input type="search" name="search" placeholder="Что ищем?">
           </label>
           <button type="submit">Поиск</button>
         </form>
+
         <a href="#">Вход</a>
-        <form action="" method="post">
+
+        <form action="#" method="post">
           <label>
             <input type="email" name="login" placeholder="Электронная почта">
           </label>
@@ -38,98 +41,104 @@
           <a href="#">Забыли пароль?</a>
           <a href="#">Новая регистрация</a>
         </form>
+
         <a href="#">Пусто</a>
-        <div class="busket">
-          <section class="order1">
-            <button type="reset"></button>
-            <img src="http://placehold.it/25" alt="изображение">
-            <p>Пломбир с апельсиновым джемом</p>
-            <p>1,5 кг x 200 руб.</p>
-            <p>300 руб.</p>
+
+        <div class="basket">
+          <section class="basket-item">
+            <button type="button">Удалить</button>
+            <img src="http://placehold.it/25" alt="Пломбир с апельсиновым джемом">
+            <span>Пломбир с апельсиновым джемом</span>
+            <span>1,5 кг x <i>200 руб.</i></span>
+            <span>300 руб.</span>
           </section>
-          <section class="order2">
-            <button type="reset"></button>
-            <img src="http://placehold.it/25" alt="Изображение">
-            <p>Клубничный пломбир с присыпкой из белого
-            шоколадка</p>
-            <p>1,5 кг x 300 руб.</p>
-            <p>450 руб.</p>
+
+          <section class="basket-item">
+            <button type="button">Удалить</button>
+            <img src="http://placehold.it/25" alt="Клубничный пломбир с присыпкой из белого шоколадка">
+            <span>Клубничный пломбир с присыпкой из белого шоколадка</span>
+            <span>1,5 кг x <i>300 руб.</i></span>
+            <span>450 руб.</span>
           </section>
-          <p>Итого: 750 руб.</p>
-          <label>
-            <input type="submit" name="checkout" value="Оформить заказ">
-          </label>
+
+          <b>Итого: 750 руб.</b>
+
+          <a href="#"></a>
         </div>
       </div>
-      <p>С 10 до 20, ежедневно<br>
-        8 812 450-25-25</p>
+
+      <span>С 10 до 20, ежедневно</span>
+      <a href="tel:8 812 450-25-25">8 812 450-25-25</a>
     </header>
+
     <main class="main-menu">
       <h1>GllacyShop</h1>
-      <input type="radio" id="icecream" checked>
-			<article id="slider">
-					<input checked type="radio" name="slider" id="slide1">
-					<input type="radio" name="slider" id="slide2">
-					<input type="radio" name="slider" id="slide3">
-				<div id="slides">
-					<div id="overflow">
-						<div class="image">
-							<article><img src="http://placehold.it/200x150"></article>
-							<article><img src="http://placehold.it/200x150"></article>
-							<article><img src="http://placehold.it/200x150"></article>
-						</div>
-					</div>
-				</div>
-			</article>
+
+      <section class="slider">
+        <div class="slide">
+          <h2></h2>
+          <img src="" alt="">
+          <a href=""></a>
+        </div>
+        <div class="slide">
+          <h2></h2>
+          <img src="" alt="">
+          <a href=""></a>
+        </div>
+        <div class="slide">
+          <h2></h2>
+          <img src="" alt="">
+          <a href=""></a>
+        </div>
+      </section>
+
       <section class="promo">
-        <div class="card1">
+        <div class="card-razz">
           <h2>Малинка даром!</h2>
           <p>
             При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ
             банку малинового варенья бесплатно.
           </p>
-        <form class="" action="#" method="post">
-          <label>
-            <input type="submit" value="Хочу варенье!">
-          </label>
-        </form>
+          <a href="#">Хочу варенье!</a>
         </div>
-        <div class="card2">
+        <div class="card-choco">
           <h2>Шоколадки даром!</h2>
           <p>
             При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей
             шоколадной присыпки совершенно бесплатно.
           </p>
-          <form class="" action="#" method="post">
-            <label>
-              <input type="submit" value="Хочу шоколадки!">
-            </label>
-          </form>
+          <a href="#">Хочу шоколадки!</a>
         </div>
       </section>
+
       <div class="catalog">
-        <article class="ice1">
-          <img src="http://placehold.it/200" alt="Мороженка1">
+        <article class="catalog-item catalog-hit">
+          <img src="http://placehold.it/200" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
           <b>310 ₽/кг</b>
-          <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
+          <h2><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></h2>
         </article>
-        <article class="ice2">
-          <img src="http://placehold.it/200" alt="Мороженка2">
+
+        <article class="catalog-item catalog-hit">
+          <img src="http://placehold.it/200" alt="Сливочно-кофейное с кусочками шоколада">
           <b>380 ₽/кг</b>
-          <a href="#">Сливочно-кофейное с кусочками шоколада</a>
+          <h2><a href="#">Сливочно-кофейное с кусочками шоколада</a></h2>
         </article>
-        <article class="ice3">
-          <img src="http://placehold.it/200" alt="Мороженка3">
+
+        <article class="catalog-item catalog-hit">
+          <img src="http://placehold.it/200" alt="Сливочно-клубничное с присыпкой из белого шоколада">
           <b>355 ₽/кг</b>
-          <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
+          <h2><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></h2>
         </article>
-        <article class="ice4">
-          <img src="http://placehold.it/200" alt="Мороженка4">
+
+        <article class="catalog-item catalog-hit">
+          <img src="http://placehold.it/200" alt="Сливочное крем-брюле с карамельной подливкой">
           <b>415 ₽/кг</b>
-          <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
+          <h2><a href="#">Сливочное крем-брюле с карамельной подливкой</a></h2>
         </article>
       </div>
+
       <section class="shop">
+        <p>Магазин Глейси — это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</p>
         <ul class="shop">
           <li>
             Все наше мороженное изготавливается на собственном производстве,
@@ -153,10 +162,12 @@
           </li>
         </ul>
       </section>
-      <div class="advice">
-        Новое в нашем блоге
-        <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
-      </div>
+
+      <article class="blog-preview">
+        <span>Новое в нашем блоге</span>
+        <h2><a href="#">10 способов сервировки фруктовых щербетов к столу</a></h2>
+      </article>
+
       <div class="email">
         <p>
           Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего
@@ -165,11 +176,11 @@
         </p>
         <form action="#" method="post">
           <label for="email-field"></label>
-          <input type="email" name="email" id="email-field" value="Электронная почта">
-          <label for="submit-field"></label>
-          <input type="submit" name="submit" id="submit-field" value="Отправить">
+          <input type="email" name="email" id="email-field" placeholder="Электронная почта">
+          <button type="submit">Отправить</button>
         </form>
       </div>
+
       <div class="map">
         <img src="http://placehold.it/150x100" alt="Местоположение">
         <div class="info">
@@ -189,6 +200,7 @@
         </div>
       </div>
     </main>
+
     <footer class="page-footer">
       <div class="social-buttons">
         <a href="#" class="social soicla-tw">
