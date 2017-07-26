@@ -4,15 +4,19 @@ body {
   line-height: 18px;
   font-family: "Roboto", "Arial", sans-serif;
   color: white;
-  background-color: #849d8f; 
+  background-color: #849d8f;
 }
 
 h1 {
-  font-size: 60px;
-  vertical-align: 60.35px;
+  font-size: 35px;
+  line-height: 41px;
 }
 
 h2 {
-  font-size: 35px;
-  vertical-align: 41px;
+  font-size: 60.35px;
+  line-height: 41px;
+}
+
+a {
+  color: white;
 }
