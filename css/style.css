@@ -21,6 +21,12 @@ a {
   color: white;
 }
 
+.wrap {
+  min-width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .dropdown,
 .shop-buttons form,
 .basket,
