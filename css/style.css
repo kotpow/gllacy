@@ -20,3 +20,39 @@ h2 {
 a {
   color: white;
 }
+
+.dropdown,
+.shop-buttons form,
+.basket,
+.main {
+  display: none;
+}
+
+.logo,
+.main-nav li:first-child,
+.main-nav li:nth-child(2),
+.card-razz,
+.ice-orange,
+.ice-brown,
+.ice-pink {
+  float: left;
+}
+
+.shop-buttons a,
+.timetable,
+.phone,
+.card-choco {
+  float: right;
+}
+
+ul {
+  list-style: none;
+}
+
+562 230
+
+.card-razz {
+  width: 562px;
+  height: 230px;
+  background-image: url("img/bg_razz");
+}
