@@ -34,31 +34,47 @@ a {
   display: none;
 }
 
-.logo,
-.main-nav li:first-child,
-.main-nav li:nth-child(2),
-.card-razz,
-.ice-orange,
-.ice-brown,
-.ice-pink {
+.logo {
   float: left;
 }
 
-.shop-buttons a,
-.timetable,
-.phone,
+.main-nav li:first-child {
+  float: left;
+}
+
+.main-nav li:nth-child(2) {
+  float: left;
+}
+
+.card-razz {
+  width: 560px;
+  float: left;
+}
+
+.ice-orange,
+.ice-brown,
+.ice-pink {
+  width: 267px;
+  float: left;
+}
+
+.shop-buttons a {
+  float: right;
+}
+
+.timetable {
+  float: right;
+}
+
+.phone {
+  float: right;
+}
+
 .card-choco {
+  width: 560px;
   float: right;
 }
 
 ul {
   list-style: none;
-}
-
-562 230
-
-.card-razz {
-  width: 562px;
-  height: 230px;
-  background-image: url("img/bg_razz");
 }
