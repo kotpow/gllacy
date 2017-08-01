@@ -24,6 +24,7 @@ a {
 .wrap {
   min-width: 900px;
   max-width: 1200px;
+  padding: 0 27px;
   margin: 0 auto;
 }
 
@@ -35,15 +36,22 @@ a {
 }
 
 .logo {
+  width: 154px;
   float: left;
 }
 
 .main-nav li:first-child {
+  margin-right: 27px;
   float: left;
 }
 
 .main-nav li:nth-child(2) {
+  margin-right: 29px;
   float: left;
+}
+
+.visually-hidden {
+  visibility: hidden;
 }
 
 .card-razz {
