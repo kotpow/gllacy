@@ -21,6 +21,10 @@ a {
   color: white;
 }
 
+ul {
+  list-style: none;
+}
+
 .wrap {
   min-width: 900px;
   max-width: 1200px;
@@ -40,6 +44,10 @@ a {
   float: left;
 }
 
+.main-nav {
+  font-size: 16px;
+}
+
 .main-nav li:first-child {
   margin-right: 27px;
   float: left;
@@ -50,6 +58,24 @@ a {
   float: left;
 }
 
+.shop-buttons a {
+  float: right;
+}
+
+.timetable {
+  font-size: 14px;
+  float: right;
+}
+
+.header-phone {
+  font-size: 22px;
+  float: right;
+}
+
+.phone {
+  float: right;
+}
+
 .visually-hidden {
   visibility: hidden;
 }
@@ -57,6 +83,7 @@ a {
 .card-razz {
   width: 560px;
   float: left;
+  background-color: #8f1e3f;
 }
 
 .ice-orange,
@@ -66,23 +93,56 @@ a {
   float: left;
 }
 
-.shop-buttons a {
-  float: right;
-}
-
-.timetable {
-  float: right;
-}
-
-.phone {
-  float: right;
-}
-
 .card-choco {
   width: 560px;
   float: right;
+  background-color: #583316;
 }
 
-ul {
-  list-style: none;
+.ice-name {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.settings {
+  font-size: 16px;
+}
+
+.field-caption {
+  font-size: 14px;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.ice-price {
+  font-size: 45px;
+}
+
+.small {
+  font-size: 30px;
+}
+
+.info {
+  font-size: 14px;
+}
+
+.bold {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-us {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.footer-bold {
+  font-weight: bold;
+}
+
+.academy {
+  font-size: 12px;
+  font-weight: normal;
 }
