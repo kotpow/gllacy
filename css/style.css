@@ -73,7 +73,7 @@ ul {
 }
 
 .phone {
-  float: right;
+  color: #323232;
 }
 
 .visually-hidden {
@@ -124,13 +124,40 @@ ul {
   font-size: 30px;
 }
 
+.advantages {
+  color: black;
+  background-color: #f0e6ce;
+}
+
+.shop {
+  color: black;
+}
+
+.blog-preview {
+  color: black;
+  background-color: white;
+}
+
+.blog-preview a {
+  color: black;
+  font-size: 24px;
+}
+
+.email {
+  color: #5a5a5a;
+  background-color: #f8f7f4;
+}
+
 .info {
+  color:#323232;
+  background-color: white;
   font-size: 14px;
 }
 
 .bold {
   font-size: 18px;
   font-weight: bold;
+  float
 }
 
 .about-us {
