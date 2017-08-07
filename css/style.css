@@ -1,8 +1,8 @@
 body {
   font-weight: bold;
   font-size: 16px;
-  line-height: 18px;
   font-family: "Roboto", "Arial", sans-serif;
+  line-height: 18px;
   color: white;
   background-color: #849d8f;
 }
@@ -28,8 +28,8 @@ ul {
 .wrap {
   min-width: 900px;
   max-width: 1200px;
-  padding: 0 27px;
   margin: 0 auto;
+  padding: 0 27px;
 }
 
 .dropdown,
@@ -40,8 +40,8 @@ ul {
 }
 
 .logo {
-  width: 154px;
   float: left;
+  width: 154px;
 }
 
 .main-nav {
@@ -49,17 +49,18 @@ ul {
 }
 
 .main-nav li:first-child {
-  margin-right: 27px;
   float: left;
+  margin-right: 27px;
 }
 
 .main-nav li:nth-child(2) {
-  margin-right: 29px;
   float: left;
+  margin-right: 29px;
 }
 
 .shop-buttons a {
   float: right;
+  text-decoration: none;
 }
 
 .product {
@@ -76,23 +77,25 @@ ul {
 }
 
 .basket .price {
-  color: #999999;
   margin-left: 29px;
+  color: #999999;
 }
 
 
 .timetable {
-  font-size: 14px;
   float: right;
+  font-size: 14px;
 }
 
 .header-phone {
-  font-size: 22px;
   float: right;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 .phone {
   color: #323232;
+  text-decoration: none;
 }
 
 .visually-hidden {
@@ -103,29 +106,31 @@ ul {
   font-size: 14px;
 }
 
+.slider-button {
+  text-decoration: none;
+}
+
 .card-razz {
-  width: 560px;
   float: left;
+  width: 560px;
   background-color: #8f1e3f;
 }
 
-.catalog-item:nth-child(1),
-.catalog-item:nth-child(2),
-.catalog-item:nth-child(3) {
+.catalog-item {
+  float: left;
   width: 267px;
   margin-right: 26px;
-  float: left;
 }
 
 .card-choco {
-  width: 560px;
   float: right;
+  width: 560px;
   background-color: #583316;
 }
 
 .ice-name {
-  font-size: 16px;
   font-weight: normal;
+  font-size: 16px;
 }
 
 .settings {
@@ -148,45 +153,54 @@ ul {
   font-size: 30px;
 }
 
-.advantages {
+.shop {
+  clear: both;
+  width: 1200px;
   color: black;
   background-color: #f0e6ce;
 }
 
-.shop {
-  color: black;
-}
-
 .blog-preview {
+  float: left;
+  width: 560px;
   color: black;
   background-color: white;
 }
 
 .blog-preview a {
-  color: black;
   font-size: 24px;
+  color: black;
 }
 
 .email {
+  float: right;
+  width: 560px;
   color: #5a5a5a;
   background-color: #f8f7f4;
 }
 
+.map {
+  clear: both;
+}
+
 .info {
+  font-size: 14px;
   color:#323232;
   background-color: white;
-  font-size: 14px;
+}
+
+.paginator a {
+  text-decoration: none;
 }
 
 .bold {
   font-size: 18px;
   font-weight: bold;
-  float
 }
 
 .about-us {
-  font-size: 13px;
   font-weight: normal;
+  font-size: 13px;
 }
 
 .footer-bold {
@@ -194,6 +208,7 @@ ul {
 }
 
 .academy {
-  font-size: 12px;
+  float: right;
   font-weight: normal;
+  font-size: 12px;
 }
