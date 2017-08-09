@@ -160,14 +160,14 @@ ul {
 
 .shop {
   clear: both;
-  width: 1200px;
+  width: 1146px;
   color: black;
   background-color: #f0e6ce;
 }
 
 .blog-preview {
   float: left;
-  width: 560px;
+  width: 48.8%;
   color: black;
   background-color: white;
 }
@@ -179,7 +179,7 @@ ul {
 
 .email {
   float: right;
-  width: 560px;
+  width: 48.8%;
   color: #5a5a5a;
   background-color: #f8f7f4;
 }
