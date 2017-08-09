@@ -30,6 +30,7 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 27px;
+  box-sizing: border-box;
 }
 
 .dropdown,
@@ -112,19 +113,23 @@ ul {
 
 .card-razz {
   float: left;
-  width: 560px;
+  width: 48.84%;
   background-color: #8f1e3f;
 }
 
 .catalog-item {
   float: left;
-  width: 267px;
+  width: 23.3%;
   margin-right: 26px;
+}
+
+.catalog-item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .card-choco {
   float: right;
-  width: 560px;
+  width: 48.84%;
   background-color: #583316;
 }
 
