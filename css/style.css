@@ -172,12 +172,19 @@ ul {
 }
 
 .shop .wrap {
-  color: black;
+  color: #323232;
   background-color: #f0e6ce;
 }
 
+.shop span {
+  font-size: 24px;
+}
+
 .advantage {
-  float: left;
+  display: inline-block;
+  width: 48.9%;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .blog-preview {
