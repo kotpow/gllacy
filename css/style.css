@@ -1,3 +1,4 @@
+/* globals */
 body {
   font-weight: bold;
   font-size: 16px;
@@ -33,13 +34,27 @@ ul {
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+/* globals - end */
+
+/* temp */
 .dropdown,
 .shop-buttons form,
 .basket,
 .main {
   display: none;
 }
+/* temp - end */
 
+/* header */
 .logo {
   float: left;
   width: 154px;
@@ -93,14 +108,12 @@ ul {
   font-size: 22px;
   text-decoration: none;
 }
+/* header - end */
+
 
 .phone {
   color: #323232;
   text-decoration: none;
-}
-
-.visually-hidden {
-  visibility: hidden;
 }
 
 .breadcrumbs {
@@ -158,11 +171,13 @@ ul {
   font-size: 30px;
 }
 
-.shop {
-  clear: both;
-  width: 1146px;
+.shop .wrap {
   color: black;
   background-color: #f0e6ce;
+}
+
+.advantage {
+  float: left;
 }
 
 .blog-preview {
